@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Allison&family=Anton&family=Azeret+Mono&family=Gloria+Hallelujah&family=Orbitron&family=Pacifico&family=Raleway&family=Sacramento&display=swap');
+
+/*
+font-family: 'Aclonica', sans-serif;
+font-family: 'Allison', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Azeret Mono', monospace;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
+
+div {
+  height: 2.5rem;
+}
+
+#h0 {
+  background-color: #5f2879;
+  color: #f43545;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1.8rem;
+}
+
+#h1 {
+  background-color: #00418d;
+  color: #ff8901;
+  font-family: 'Allison', cursive;
+  font-size: 1.8rem;
+  padding-left: 8%;
+}
+
+#H2 {
+  background-color: #00c2de;
+  color: #fad717;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+  padding-left: 16%;
+}
+
+#h3 {
+  background-color: #33e69e;
+  color: #00ba71;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 1.8rem;
+  padding-left: 24%;
+}
+
+#H4 {
+  background-color: #00ba71;
+  color: #33e69e;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1rem;
+  padding-left: 32%;
+  font-weight: bold;
+}
+
+#h5 {
+  background-color: #fad717;
+  color: #00c2de;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 1.8rem;
+  padding-left: 40%;
+}
+
+#h6 {
+  background-color: #ff8901;
+  color: #00418d;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  padding-left: 48%;
+}
+
+#h7 {
+  background-color: #f43545;
+  color: #5f2879;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.3rem;
+  padding-left: 56%;
+}
+
+#H8 {
+  background-color: rgb(255, 0, 0);
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.7rem;
+  padding-left: 64%;
+}
+
+#h9 {
+  background-color: #5f2879;
+  color: #f43545;
+  font-family: 'Sacramento', cursive;
+  font-size: 1.7rem;
+  padding-left: 72%;
+  animation-name: movimentacao;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movimentacao {
+  11.11% {
+    background-color: #5f2879;
+    color: #f43545;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    padding-left: 64%;
+  }
+  22.22% {
+    background-color: #f43545;
+    color: #5f2879;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3rem;
+    padding-left: 56%;
+  }
+  33.33% {
+    background-color: #ff8901;
+    color: #00418d;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    padding-left: 48%;
+  }
+  44.44% {
+    background-color: #fad717;
+    color: #00c2de;
+    font-family: 'Azeret Mono', monospace;
+    font-size: 1.8rem;
+    padding-left: 40%;
+  }
+  55.55% {
+    background-color: #00ba71;
+    color: #33e69e;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1rem;
+    padding-left: 32%;
+    font-weight: bold;
+  }
+  66.66% {
+    background-color: #33e69e;
+    color: #00ba71;
+    font-family: 'Azeret Mono', monospace;
+    font-size: 1.8rem;
+    padding-left: 24%;
+  }
+  77.77% {
+    background-color: #00c2de;
+    color: #fad717;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.8rem;
+    padding-left: 16%;
+  }
+  88.88% {
+    background-color: #00418d;
+    color: #ff8901;
+    font-family: 'Allison', cursive;
+    font-size: 1.8rem;
+    padding-left: 8%;
+  }
+  99.99% {
+    background-color: #5f2879;
+    color: #f43545;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.8rem;
+    padding: 0;
+  }
+}
